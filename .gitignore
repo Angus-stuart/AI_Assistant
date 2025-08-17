@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+credentials.json
+#  This file contains sensitive information such as API keys and should not be shared publicly.
+token.json
+#  This file contains authentication tokens and should not be shared publicly.
