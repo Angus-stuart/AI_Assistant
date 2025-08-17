@@ -16,7 +16,7 @@ An intelligent AI assistant that interacts via voice, maintains short-term and l
 ---
 
 ## File Structure
-
+```text
 ALASSISTANT/
 ├─ pycache/
 ├─ .venv/
@@ -32,7 +32,7 @@ ALASSISTANT/
 ├─ output.wav
 ├─ README.md
 └─ token.json
-
+```
 ---
 
 ## Requirements
@@ -53,29 +53,30 @@ ALASSISTANT/
   dateparser
 ## Setup
 ### 1. Clone the repo:
-
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
-
+```bash 
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
 ### 2. Create and activate a virtual environment:
-
-    python -m venv .venv
-
+```bash
+python -m venv .venv
+```
 # Windows
-    .venv\Scripts\activate
-
+```bash
+.venv\Scripts\activate
+```
 # macOS/Linux
     source .venv/bin/activate
 
 ### 3. Install dependencies:
-
-    pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 ### 4. Set up environment variables in .env:
-
-    ELEVENLABS_API_KEY=your_elevenlabs_api_key
-    OPENAI_TOKEN=your_openai_api_key
-
+```bash 
+ELEVENLABS_API_KEY=your_elevenlabs_api_key
+OPENAI_TOKEN=your_openai_api_key
+```
 ### 5. Set up Google Calendar API:
 
 Place credentials.json in the root folder.
@@ -84,8 +85,9 @@ On first run, a browser will open to authenticate and generate token.json.
 
 ## Usage
 ### Run the assistant:
-    python src/assistant.py
-
+```bash
+python src/assistant.py
+```
 The assistant will:
 
 1. Record your voice input.
